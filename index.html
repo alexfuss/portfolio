@@ -16,7 +16,10 @@
 <body>
   
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="https://alexfuss.github.io/">Alex Fuss</a>
+    <a class="navbar-brand" href="https://alexfuss.github.io/">
+      <!--Logo image comes from Free Logo Maker-->
+      <img src="../portfolio/Assets/16996ff1-4730-4e2e-8147-4f3cbe28dbbe_200x200.png" width="50" height="50" alt="AF custom logo" loading="lazy" class="nav-img">
+    </a>
     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,9 +32,12 @@
         <li class="nav-item">
           <a class="nav-link" href="https://alexfuss.github.io/portfolio/">Portfolio</a>
         </li>
-        <li class="nav-item">
+
+        <!-- The below link leads to a contact page to be completed later in the course-->
+        <!--<li class="nav-item">
           <a class="nav-link" href="https://alexfuss.github.io/contact/">Contact</a>
-        </li>
+        </li>-->
+
     </div>
   </nav>
 
@@ -42,72 +48,52 @@
               <h1>Portfolio</h1>
             </div>
           </div>
-        </div>
 
-
-        <!--The below images are from pexels.com-->
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card" style="width: 20rem;">
-              <img src="../portfolio/Assets/web-text-1591060.jpg" class="card-img-top" alt="scrabble - word guess game">
-              <div class="card-body">
-                <h5 class="card-title">Word Guess</h5>
-                <!--<p class="card-text">This wil act as a placeholder for a short description of this completed project</p>-->
-                <a href="#" class="btn btn-primary">Check it out!</a>
-              </div>
+          <div class="card">
+            <div class="card-header">
+              <h5>Date Night Game</h5>
             </div>
-            <div class="col-md-12">
-              <div class="card" style="width: 20rem;">
-                <img src="../portfolio/Assets/flat-screen-computer-monitor-3977908.jpg" class="card-img-top" alt="image of person playing video game">
-                <div class="card-body">
-                  <h5 class="card-title">RPG Game</h5>
-                <!--<p class="card-text">This wil act as a placeholder for a short description of this completed project</p>-->
-                <a href="#" class="btn btn-primary">Check it out!</a>
-                </div>
-              </div>
+            <div class="card-body">
+              <img src="../portfolio/Assets/date-night-img.png" class="card-img-top proj-img" alt="date night project img">
+              <p class="card-text">This project uses the Movie Database and Spoonacular APIs to allow users 
+                <br>  to find specific movies and recipes based on genre and cuisine type.</p>
+              <a href="https://michellew179.github.io/datenight/" class="btn btn-primary">Check it out!</a>
+              <a href="https://github.com/michellew179/datenight" class="btn btn-secondary">Github Repo</a>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="card-header">
+              <h5>Day Planner</h5>
+            </div>
+            <div class="card-body">
+              <img src="../portfolio/Assets/day-planner-img.png" class="card-img-top proj-img" alt="date night project img">
+              <p class="card-text">A simple calendar application that allows the user to save events for each hour of the day.</p>
+              <a href="https://alexfuss.github.io/work-day-scheduler/" class="btn btn-primary">Check it out!</a>
+              <a href="https://github.com/alexfuss/work-day-scheduler" class="btn btn-secondary">Github Repo</a>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="card-header">
+              <h5>Weather Dashboard</h5>
+            </div>
+            <div class="card-body">
+              <img src="../portfolio/Assets/weather-dash-img.png" class="card-img-top proj-img" alt="date night project img">
+              <p class="card-text">A dynamic weather application built with the OpenWeather API <br> that allows users to search for a 5-day forecast for any city.</p>
+              <a href="https://alexfuss.github.io/weather-dashboard/" class="btn btn-primary">Check it out!</a>
+              <a href="https://github.com/alexfuss/weather-dashboard" class="btn btn-secondary">Github Repo</a>
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card" style="width: 20rem;">
-              <img src="../portfolio/Assets/alphabet-blur-books-close-up-301920.jpg" class="card-img-top" alt="Dice that spell study">
-              <div class="card-body">
-                <h5 class="card-title">Trivia Game</h5>
-                <!--<p class="card-text">This wil act as a placeholder for a short description of this completed project</p>-->
-                <a href="#" class="btn btn-primary">Check it out!</a>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="card" style="width: 20rem;">
-                <img src="../portfolio/Assets/technology-computer-display-text-330771.jpg" class="card-img-top" alt="image of code">
-                <div class="card-body">
-                  <h5 class="card-title">Info Widget</h5>
-                <!--<p class="card-text">This wil act as a placeholder for a short description of this completed project</p>-->
-                <a href="#" class="btn btn-primary">Check it out!</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-12">
-              <div class="card card-clear" style="width: 20rem;">
-                <img src="../portfolio/Assets/background-blank-business-craft-301703.jpg" class="card-img-top" alt="image of office supplies">
-                <div class="card-body">
-                  <h5 class="card-title">Rock Paper Scissors</h5>
-                <!--<p class="card-text">This wil act as a placeholder for a short description of this completed project</p>-->
-                <a href="#" class="btn btn-primary">Check it out!</a>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <div class="container">
+      <div class="col-md-12">
         <footer class="footer sticky-top">
           <p class="font-italic text-uppercase">Copyright</p>
       </footer>
-
+      </div>
+    </div>
 
 
 <!--Links to Bootstrap JS-->
